@@ -1,0 +1,13 @@
+
+header{
+    @extend %grid-center;
+    padding : 1em;
+
+    & img {
+        width: 100%;
+    }
+
+    & .btn__retourHome{
+        justify-self: start;
+    }
+}
